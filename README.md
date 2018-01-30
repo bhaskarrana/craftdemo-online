@@ -54,7 +54,6 @@ To use the driver, you provide a connection URL, e.g. `bolt://user:password@loca
 The session allows you to execute Cypher statements directly and iterate over the `StatementResults` to access the resulting `Value`s.
 Please edit com.craftdemo.util.Util.java to add your connection settings, for instance "bolt://neo4j:neo4j@localhost"
 
-W
 ----
 
 === Run locally:
