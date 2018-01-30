@@ -2,7 +2,7 @@ package com.craftdemo.util;
 
 public class Util {
     public static final String DEFAULT_URL = "bolt://neo4j:1234@localhost";
-    public static final String WEBAPP_LOCATION = "src/main/webapp/";
+  
 
     public static int getWebPort() {
         String webPort = System.getenv("PORT");
